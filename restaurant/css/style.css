@@ -1,6 +1,7 @@
 
 body {
 	background-color: #61122f;
+	font-size: 16px;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
 }
 
 #logo-img {
-	background: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR8-ENUdgXoTmyoMA7DJXvDvHtXyVfRdxnax19JXU97NpH-cQJ1") no-repeat;
+	background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRiB449VKqxbs_nkiRBCd_iKsDDLzSp6ZkWl5H_hqiLk8bQNciqAA") no-repeat;
 	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10px 0;
@@ -70,4 +71,52 @@ h1 {
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+/**********large device***********/
+@media (min-width: 1200px) {
+
+}
+/**********medium device***********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#logo-img {
+
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+}
+/**********small device***********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+/**********extra small device***********/
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 { /*Restaurant name*/
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img {
+		height: 20px;
+	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 10px;
+	}
 }
