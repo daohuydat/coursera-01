@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Pho Nui Restaurant</title>
+	<title>David Mama Bistro</title>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lora:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
@@ -22,7 +22,7 @@
 					</a>
 
 					<div class="navbar-brand">
-						<a href="index.html"><h1>Pho Nui Restaurant</h1></a>
+						<a href="index.html"><h1>David Ma's China Bistro</h1></a>
 						<p>
 							<img src="http://www.novitae.nl/wp-content/uploads/2015/05/star-512.png" alt="Kosher" width="15px" height="15px">
 							<span>Kosher Certified</span>
@@ -68,9 +68,8 @@
 	</header>
 
 	<div id="call-btn" class="visible-xs">
-		<a class="btn" href="tel:0978756136">
+		<a class="btn" href="tel:0978756136">0978756136
 		<span class="glyphicon glyphicon-earphone"></span>
-		0978756136
 		</a>
 	</div>
 	<div id="xs-deliver" class="text-center visible-xs"> * We deliver</div>
@@ -79,27 +78,7 @@
 	<!--content-->
 	<div id="main-content" class="container">
 		<div class="jumbotron">
-			<img src="image/jum768.jpg" alt="restaurant" class="img-responsive visible-xs">
-		</div>
-		<div id="home-tiles" class="row">
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				<a href="menu-categories.html">
-					<div id="menu-tile"><span>menu</span></div>
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				<a href="single-category.html">
-					<div id="specials-tile"><span>specials</span></div>
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-12 col-xs-12">
-				<a href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+Ti%E1%BB%87c+C%C6%B0%E1%BB%9Bi+C%C3%A2y+Xanh/@13.9478343,107.9232179,11.5z/data=!4m5!1m2!2m1!1srestaurants+Gia+Lai!3m1!1s0x0000000000000000:0xb507bdde567402d0" target="_blank">
-					<div id="map-tile">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247819.57513642946!2d107.9232179!3d13.9478343!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xb507bdde567402d0!2zTmjDoCBIw6BuZyBUaeG7h2MgQ8aw4bubaSBDw6J5IFhhbmg!5e0!3m2!1svi!2s!4v1459084080656" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-						<span>map</span>
-					</div>
-				</a>
-			</div>
+			
 		</div>
 	</div>
 </body>
