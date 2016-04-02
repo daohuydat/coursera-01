@@ -21,6 +21,8 @@
 
 #nav-list {
 	background-color: #ffcc66;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 #nav-list a {
 	color: #951C49;
