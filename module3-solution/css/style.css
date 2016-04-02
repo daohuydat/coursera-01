@@ -1,0 +1,36 @@
+/*********/
+
+
+#header-nav {
+	background-color: #b3ffb3;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand a {
+	font-family: 'Lora', serif;
+	color: #ff3399;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#nav-list {
+	background-color: #ffcc66;
+}
+#nav-list a {
+	color: #951C49;
+	
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#chicken-item {
+	background-color: #ffe6ff;
+	padding: 20px;
+}
